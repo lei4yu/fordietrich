@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://i.pinimg.com/1200x/da/d5/c5/dad5c5600493e45f0c5026d204cf79fd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.4em;
+  margin-bottom: 15px;
+  color: #e6d0ff; /* brighter violet for the title */
+  text-shadow: 0 0 12px rgba(166, 77, 255, 0.8);
+}
+
+.subtitle {
+  text-align: center;
+  color: #d8b4ff; /* softer violet for subtitle */
+  font-size: 1.2em;
+  margin-bottom: 25px;
+  text-shadow: 0 0 6px rgba(0,0,0,0.6);
+}
+
+/* Frosted Glass Form Box */
+.form-box {
+  background: rgba(40, 0, 60, 0.25); /* subtle violet tint instead of plain white */
+  border-radius: 20px;
+  padding: 25px;
+  margin: 20px 0;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px); /* frosted glass effect */
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(166, 77, 255, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Glow on hover */
+.form-box:hover {
+  box-shadow: 0 0 25px rgba(166, 77, 255, 0.7);
+}
+
+/* Subtitle inside form */
+.form-box h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #e6d0ff;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Message Text */
+.form-message {
+  font-size: 1.05em;
+  color: #fdfcff;
+  line-height: 1.6;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
